@@ -57,7 +57,7 @@
     "@ethersproject/web": "5.0.1",
     "@ethersproject/wordlists": "5.0.1",
     "axios": "^0.21.1",
-    "core-js": "^3.6.5",
+    "core-js": "^3.20.1",
     "dotenv": "^8.2.0",
     "ethers": "5.0.7",
     "fastify": "^3.2.0",
