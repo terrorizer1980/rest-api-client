@@ -33,7 +33,7 @@
     "@ethersproject/base64": "5.0.1",
     "@ethersproject/basex": "5.0.1",
     "@ethersproject/bytes": "5.0.1",
-    "@ethersproject/bignumber": "5.0.1",
+    "@ethersproject/bignumber": "5.5.0",
     "@ethersproject/constants": "5.0.1",
     "@ethersproject/contracts": "5.0.1",
     "@ethersproject/hash": "5.0.1",
