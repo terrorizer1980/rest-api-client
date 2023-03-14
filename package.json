@@ -66,7 +66,7 @@
     "fastify-swagger": "^3.2.0",
     "lodash": "^4.17.19",
     "pino-pretty": "^4.0.1",
-    "sqlite3": "5.0.0",
+    "sqlite3": "5.1.5",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
