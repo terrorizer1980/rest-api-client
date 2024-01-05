@@ -56,7 +56,7 @@
     "@ethersproject/wallet": "5.0.1",
     "@ethersproject/web": "5.0.1",
     "@ethersproject/wordlists": "5.0.1",
-    "axios": "^0.21.1",
+    "axios": "^1.6.4",
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
     "ethers": "5.0.7",
@@ -66,7 +66,7 @@
     "fastify-swagger": "^3.2.0",
     "lodash": "^4.17.19",
     "pino-pretty": "^4.0.1",
-    "sqlite3": "5.0.0",
+    "sqlite3": "5.1.7",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
