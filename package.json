@@ -59,7 +59,7 @@
     "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "dotenv": "^8.2.0",
-    "ethers": "5.0.7",
+    "ethers": "6.0.0",
     "fastify": "^3.2.0",
     "fastify-auth": "^1.0.1",
     "fastify-helmet": "^4.0.2",
