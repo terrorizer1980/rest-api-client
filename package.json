@@ -22,7 +22,9 @@
     "start": "npm run build && npm run prod",
     "lint": "eslint -c './.eslintrc' --fix './src/**/*.ts'",
     "start:dev": "ts-node src/index.ts --watch",
-    "deploy": "bash ops/deploy.sh"
+    "deploy": "bash ops/deploy.sh",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@connext/client": "7.3.17",
@@ -67,7 +69,8 @@
     "lodash": "^4.17.19",
     "pino-pretty": "^4.0.1",
     "sqlite3": "5.0.0",
-    "uuid": "^8.3.0"
+    "uuid": "^8.3.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
@@ -95,5 +98,6 @@
     "prettier": "^2.0.5",
     "ts-node": "^8.10.2",
     "typescript": "3.9.7"
-  }
+  },
+  "snyk": true
 }
